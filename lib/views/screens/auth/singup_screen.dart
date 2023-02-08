@@ -4,7 +4,7 @@ import 'package:tiktok_clone/controllers/auth_controller.dart';
 import 'package:tiktok_clone/views/widgets/text_input_field.dart';
 
 class SingupScreen extends StatefulWidget {
-  SingupScreen({super.key});
+  const SingupScreen({super.key});
 
   @override
   State<SingupScreen> createState() => _SingupScreenState();
@@ -18,7 +18,6 @@ class _SingupScreenState extends State<SingupScreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     super.dispose();
     _emailController.dispose();
     _passController.dispose();
